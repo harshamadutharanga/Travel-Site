@@ -1,0 +1,71 @@
+    .content {
+        display:none;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-gap: 1rem;
+    }
+    
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+        .content {
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            }
+        }
+    
+    .contentr {
+        display:grid;
+    }
+    
+    .content img{
+        margin-top: 10px;
+        border-radius: 5px;
+        max-width: 100%; /* Ensure images don't exceed their container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove any default inline spacing */
+    }
+    
+    .content .showimage1, .showimage2, .showimage3, .showimage4, 
+    .showimage5, .showimage6, .showimage7, .showimage8, .showimage9,
+    .showimage10, .showimage11, .showimage12{
+        background-color: whitesmoke;
+        padding: 10px;
+        text-align: justify;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content  small{
+        text-align: justify;
+        overflow: hidden;
+        color: #415f68;
+    }
+    .content  .details{
+        height: 185px;
+        overflow: scroll;
+        scrollbar-width: none; /* For Firefox */
+        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        overflow: -moz-scrollbars-none; /* For Firefox 64 and below */
+    }
+
+    .container3 p{
+        margin-top: 50px;
+        text-align: justify;
+        color: #415f68;
+    }
+    .container3 a{
+        text-decoration: none;
+    }
+    .container3 .p1{
+        color: #415f68;
+    } 
+
+ .tp{
+        text-shadow: 3px 3px 3px #ababab;
+        color: #8800e6;
+    }
+
+ .data h4{
+        text-shadow: 3px 3px 3px #ababab;
+        color: #1a59d1;
+ }
+ 
+
